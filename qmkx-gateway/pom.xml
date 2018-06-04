@@ -8,7 +8,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>qmkx-gateway</name>
+    <name>qmkx23-gateway</name>
     <description>服务统一网关</description>
 
     <parent>
