@@ -1,4 +1,4 @@
-package com.zzgele.qmfx.user;
+package com.zzgele.qmkx.user;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

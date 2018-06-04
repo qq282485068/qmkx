@@ -3,12 +3,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.zzgele.qmfx.user</groupId>
-    <artifactId>qmfx-service-user</artifactId>
+    <groupId>com.zzgele.qmkx.user</groupId>
+    <artifactId>qmkx-service-user</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>qmfx-service-user</name>
+    <name>qmkx-service-user</name>
     <description>用户服务</description>
 
     <parent>
@@ -59,6 +59,9 @@
             <artifactId>spring-boot-admin-starter-client</artifactId>
             <version>1.5.6</version>
         </dependency>
+
+
+
     </dependencies>
 
     <build>
@@ -67,7 +70,25 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+
+            <!--构建Docker镜像的插件 -->
+            <plugin>
+                <groupId>com.spotify</groupId>
+                <artifactId>docker-maven-plugin</artifactId>
+                <version>0.4.10</version>
+                <configuration>
+                    <imageName>${project.groupId}/${project.artifactId}:${project.version}</imageName>
+                    <dockerDirectory>${project.build.outputDirectory}</dockerDirectory>
+                    <resources>
+                        <resource>
+                            <directory>${project.build.directory}</directory>
+                            <include>${project.build.finalName}</include>
+                        </resource>
+                    </resources>
+                </configuration>
+            </plugin>
         </plugins>
+
     </build>
 
 

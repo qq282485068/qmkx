@@ -4,20 +4,22 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.zzgele.qmkf</groupId>
-    <artifactId>qmfx</artifactId>
+    <groupId>com.zzgele.qmkx</groupId>
+    <artifactId>qmkx</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
 
     <modules>
-        <module>qmfx-gateway</module>
-        <module>qmfx-monitor</module>
-        <module>qmfx-server-config</module>
-        <module>qmfx-server-eureka</module>
-        <module>qmfx-service-user</module>
-        <module>qmfx-service-sys</module>
-        <module>qmfx-commons</module>
+        <module>qmkx-gateway</module>
+        <module>qmkx-monitor</module>
+        <module>qmkx-commons</module>
+        <module>qmkx-server-config</module>
+        <module>qmkx-server-eureka</module>
+        <module>qmkx-service-user</module>
+        <module>qmkx-service-sys</module>
+        <module>qmkx-web-admin</module>
+
     </modules>
 
     <properties>
