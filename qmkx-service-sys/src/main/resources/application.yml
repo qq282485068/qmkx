@@ -13,9 +13,15 @@ spring
       client.name=UserService
       url=http://localhost:8080
 
-
-
-spring.datasource.driver-class-name=
+# 配置中心相关配置
+spring:
+  application:
+    name: qmkx-service-sys
+  cloud:
+    config:
+      uri: http://localhost:1201/
+      profile: default
+      label: master
 
 # 数据源配置
 spring:
