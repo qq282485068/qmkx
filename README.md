@@ -33,6 +33,8 @@
 ## 服务消费端  ##
 
 **参考《阿里Java参考手册》**
+https://github.com/alibaba/p3c
+
 - Controller类命名：XxxController，请求处理方法为:list update updateByXxx delete deleteBy getXxxList 
 - Service接口命名：XxxService，业务处理方法为: getXxxByPage()   getXxxList()  getXxxList(Xxx arg1, Xxx arg2), 业务层方法可以使用方法重载
 - Service实现类命名：XxxServiceImpl
