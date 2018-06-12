@@ -27,6 +27,7 @@
 		<module>qmkx-service-sys</module>
 		<module>qmkx-service-user</module>
 		<module>qmkx-service-video</module>
+		<module>qmkx-service-message</module>
 	</modules>
 
 	<properties>

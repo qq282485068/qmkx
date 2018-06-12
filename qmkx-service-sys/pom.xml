@@ -85,6 +85,11 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
+        <!-- 服务阶级相关的starter-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>
+        </dependency>
         <!-- 安全认证相关的starter-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -136,7 +141,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
 
 
     <repositories>

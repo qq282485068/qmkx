@@ -1,6 +1,6 @@
 # 数据源配置
 spring:
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/depot
+    url: jdbc:mysql://127.0.0.1:3306/qmkx_system
     username: qmkx
     password: 123456

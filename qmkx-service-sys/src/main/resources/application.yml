@@ -28,14 +28,15 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/depot
+    url: jdbc:mysql://127.0.0.1:3306/qmkx_system
     username: qmkx
     password: 123456
+
 
 # MyBatis配置
 mybatis:
   mapper-locations: classpath:mybatis/*.xml
-  type-aliases-package: com.zzgele.qmkx.user.pojo
+  type-aliases-package: com.zzgele.qmkx.sys.pojo
 
 
 #pagehelper分页插件配置

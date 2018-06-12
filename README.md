@@ -20,7 +20,7 @@
 - qmkx-service-sys: 系统服务
 - qmkx-service-user: 用户服务
 - qmkx-service-video: 视频服务
-
+- qmkx-service-message: 消费队列服务
 
 
 ## 后台管理系统  ##
@@ -28,11 +28,11 @@
 
 
 
+
+
 ## 服务消费端  ##
-- qmzb-monitor-server:  SpringBoot应用监控服务端
 
-
-**编码命名规范**
+**参考《阿里Java参考手册》**
 - Controller类命名：XxxController，请求处理方法为:list update updateByXxx delete deleteBy getXxxList 
 - Service接口命名：XxxService，业务处理方法为: getXxxByPage()   getXxxList()  getXxxList(Xxx arg1, Xxx arg2), 业务层方法可以使用方法重载
 - Service实现类命名：XxxServiceImpl
@@ -68,19 +68,32 @@
 6. SonarQube的Bugs、漏洞、坏味道三个指标必须归零
 
 
+
+## 文档产出：
+1. 《项目管理计划》
+2. 《需求说明书（含原形图）》
+3. 《系统架构设计文档》
+4. 《接口文档》
+5. 《数据库设计文档》
+6. 《测试用例》
+7. 《性能测试计划》、《性能测试报告 》
+8. 《项目上线手册》
+
+
+
 ## 人员岗位：
 
-1. 技术总监：柳海军
-2. 测试经理：孙晓敏
-3. 后端开发人员：李英凯
-4. WEB开发人员：郭文强
-5. IOS开发人员：乔柏智
-6. Android开发人员：
-7. 测试人员：
-8. 运维：李方
+-  技术负责人：柳海军
+-  Java后端开发人员：武文斌、李英凯、马永昌
+-  Python后端开发人员：
+-  WEB开发人员：郭文强
+-  IOS开发人员：乔柏智
+-  Android开发人员：
+-  测试人员：
+-  运维：李方
 
 
-## 例会时间：每天10:10
+## 例会时间：每天09:20
 
 
 ## 开发环境信息：

@@ -11,7 +11,7 @@ import org.springframework.web.client.RestTemplate;
 public class QmkxServiceSysApplication {
 
     @Autowired
-    private RestTemplate restTemplate(){
+    private RestTemplate restTemplate() {
         return new RestTemplate();
     }
 

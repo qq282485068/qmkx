@@ -2,8 +2,9 @@ FROM java
 
 MAINTAINER "Haijun Liu"<isaiah@sohu.com>
 
-ADD @project.build.finalName@.jar @project.build.finalName@.jar
+ADD @project.build.finalName@.jar app.jar
 
-EXPOSE 8081
+EXPOSE 8080
 
-CMD java -jar @project.build.finalName@.jar
+CMD java -jar app.jar
+
